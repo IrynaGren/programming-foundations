@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Screen Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Green Screen Web Page</h1>
+    <div class="container">
+        <div class="left-panel">
+            <canvas id="foregroundCanvas" width="640" height="480"></canvas>
+            <input type="file" id="foregroundInput" accept="image/*">
+        </div>
+        <div class="right-panel">
+            <canvas id="backgroundCanvas" width="640" height="480"></canvas>
+            <input type="file" id="backgroundInput" accept="image/*">
+        </div>
+    </div>
+    <button id="compositeButton">Create Composite</button>
+    <button id="clearButton">Clear Canvases</button>
+    <script src="script.js"></script>
+</body>
+</html>
