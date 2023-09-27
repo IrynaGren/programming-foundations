@@ -1,0 +1,19 @@
+/* CSS for headers and divs in general */
+h1, div {
+    color: blue;
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* CSS for individual divs */
+#div1 {
+    background-color: yellow;
+}
+
+#div2 {
+    background-color: orange;
+}
