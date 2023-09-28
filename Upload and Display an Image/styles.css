@@ -1,23 +1,21 @@
-h1 {
-  font-family: arial;
-  color: dimgray;
-}
-
+/* Add CSS styles here */
 body {
+  font-family: Arial, sans-serif;
+  color: #333;
   margin: 20px;
 }
 
-canvas {
-  width: 300pt;
-  //height: 200pt;
-  margin: 10px;
-  border: 1px solid lightgray;
+header {
+  font-size: 24px;
+  color: #0066cc;
 }
 
-input {
-  font-size: 20pt;
+#canvas {
+  border: 2px solid #999;
+  max-width: 100%;
+  height: auto;
 }
 
-.orangeback {
-  background-color: orange;
+input[type="file"] {
+  font-size: 16px;
 }

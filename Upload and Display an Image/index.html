@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <title>Upload and Display Image</title>
+    <title>Image Uploader</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Image Uploader</h1>
-    </header>
-    <canvas id="canvas" width="400" height="400"></canvas>
-    <input type="file" id="fileInput" accept=".jpg, .jpeg, .png" onchange="upload()">
-    <script src="SimpleImage.js"></script>
-    <script src="script.js"></script>
+<header>Image Uploader</header>
+<canvas id="canvas"></canvas>
+<input type="file" id="imageInput" accept=".jpg, .jpeg, .png, .gif">
+<button onclick="upload()">Upload Image</button>
+
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
